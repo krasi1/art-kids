@@ -3,5 +3,5 @@ import { defineConfig } from 'vite'
 
 export default defineConfig({
   plugins: [react()],
-  base: "/unss-project/"
+  base: "/art-kids/"
 })
