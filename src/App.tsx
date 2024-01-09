@@ -1,17 +1,24 @@
-import { useState } from "react";
-import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+import "./App.css";
+import MovieClip from "./assets/MovieClip";
+
+const App = () => {
 
   return (
     <>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+      <MovieClip />
       </div>
+
+      <Footer />
     </>
+  );
+}
+
+const Footer = () => {
+  return (
+    <div className="footer">
+    </div>
   );
 }
 
