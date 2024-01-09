@@ -1,14 +1,15 @@
 
 import "./App.css";
 import MovieClip from "./assets/MovieClip";
+import Header from './Header';
 
 const App = () => {
 
   return (
     <>
-      <div className="card">
+    <Header />
+
       <MovieClip />
-      </div>
 
       <Footer />
     </>

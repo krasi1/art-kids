@@ -1,8 +1,25 @@
+body {
+  background-color: #fffff0;
+}
+
 #root {
-  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: block;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  height: 100%
 }
 #video {
   position: relative;
+  border-width: 5px;
+  border-color: black;
+  margin-top: 20px;
+  margin-left: 20px;
+
+
 }
 .card {
   position: relative;
@@ -11,36 +28,58 @@
 }
 
 .footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
+  background-color: #5e341f;
+  text-align: left;
   padding: 10px;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+header {
+  background-color: #ca7b4a;
+  color: #fffff0;
+  padding: 20px 0;
+  text-align: center;
 }
 
+nav {
+  margin-bottom: 10px;
+}
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+}
+
+li {
+  display: inline-block;
+  margin-right: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: #fffff0;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 
+.hero-banner {
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
 
 
