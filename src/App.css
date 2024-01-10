@@ -1,5 +1,13 @@
+/* //#cb997e darker brown
+//ddbea9 lighter brown
+//ffe8d6 lightest brown
+//b7b7a4 light green(puke)
+//6b705c darker green(vomit) */
+
 body {
-  background-color: #fffff0;
+  background-image: url("public/bg1.JPG");
+  background-size: cover;
+  background-position: center;
 }
 
 #root {
@@ -10,7 +18,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   width: 100%;
-  height: 100%
+  height: 100%;
 }
 #video {
   position: relative;
@@ -18,8 +26,22 @@ body {
   border-color: black;
   margin-top: 20px;
   margin-left: 20px;
-
-
+}
+#homeButton {
+  position: absolute;
+  height: 12.6vh;
+  width: 10vw;
+  left: 0;
+  top: 0;
+  border: 1px solid transparent;
+  font-size: 20px;
+  font-family: inherit;
+  background-color: #336630;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+#homeButton:hover {
+  border-color: #ffffff;
 }
 .card {
   position: relative;
@@ -37,36 +59,47 @@ body {
 }
 
 header {
-  background-color: #ca7b4a;
+  height: 12.6vh;
+  width: 100%;
+  background-color: #6b705c;
   color: #fffff0;
-  padding: 20px 0;
   text-align: center;
+  display: flex;
+  justify-content: right;
+  align-items: stretch;
 }
-
-nav {
-  margin-bottom: 10px;
+header .hero-banner {
+  position: relative;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
+  position: absolute;
   margin: 0;
-
+  padding: 0;
+  width: 90%;
+  justify-content: right;
 }
 
 li {
   display: inline-block;
-  margin-right: 20px;
-
 }
 
-a {
+#bigButton {
   text-decoration: none;
   color: #fffff0;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 32px;
+  background-color: #336630;
+  height: 100%;
+  height: 12.6vh;
+  width: 30vw;
+  border: 1px solid transparent;
+  transition: border-color 0.25s;
 }
-
+#bigButton:hover {
+  cursor: pointer;
+  border-color: #ffffff;
+}
 
 .hero-banner {
   text-align: center;
@@ -81,5 +114,3 @@ p {
   font-size: 18px;
   margin-bottom: 20px;
 }
-
-

@@ -1,26 +1,19 @@
-
+import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
-import MovieClip from "./assets/MovieClip";
-import Header from './Header';
+import Header from "./Header";
+import AppRoutes from "./Routes";
+import Footer from "./assets/Footer";
 
 const App = () => {
-
   return (
-    <>
-    <Header />
-
-      <MovieClip />
-
-      <Footer />
-    </>
+    <Router>
+      <>
+        <Header />
+        <AppRoutes />
+        <Footer />
+      </>
+    </Router>
   );
-}
-
-const Footer = () => {
-  return (
-    <div className="footer">
-    </div>
-  );
-}
+};
 
 export default App;
