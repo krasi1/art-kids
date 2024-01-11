@@ -1,8 +1,11 @@
-/* //#cb997e darker brown
-//ddbea9 lighter brown
-//ffe8d6 lightest brown
-//b7b7a4 light green(puke)
-//6b705c darker green(vomit) */
+.bg {
+  background-image: url("/assets/bg1.JPG");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-size: 24px,
+}
+
 
 #home-title {
   font-family: "Times New Roman", Times, serif;

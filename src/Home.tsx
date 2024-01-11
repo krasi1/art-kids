@@ -1,14 +1,7 @@
 const Home = () => {
-  const backgroundImageStyle = {
-    background: 'url("assets/bg1.JPG")',
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    height: "100vh",
-    fontSize: "24px",
-  };
   return (
     <div>
-      <div style={backgroundImageStyle}>
+      <div className="bg">
         <h1 id="home-title">Art Kids</h1>
         <article className="title-article">
           <h1>
