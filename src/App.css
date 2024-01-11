@@ -13,7 +13,7 @@ body {
 #root {
   margin: 0 auto;
   padding: 0;
-  font-family: Arial, sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   display: block;
   flex-direction: column;
   min-height: 100vh;
@@ -29,12 +29,12 @@ body {
 }
 #homeButton {
   position: absolute;
-  height: 12.6vh;
+  height: 18vh;
   width: 10vw;
   left: 0;
   top: 0;
   border: 1px solid transparent;
-  font-size: 20px;
+  font-size: 50px;
   font-family: inherit;
   background-color: #336630;
   cursor: pointer;
@@ -59,7 +59,7 @@ body {
 }
 
 header {
-  height: 12.6vh;
+  height: 18vh;
   width: 100%;
   background-color: #6b705c;
   color: #fffff0;
@@ -84,21 +84,33 @@ li {
   display: inline-block;
 }
 
-#bigButton {
+.bigButton {
+  font-family: "Times New Roman", Times, serif;
   text-decoration: none;
   color: #fffff0;
   font-weight: bold;
-  font-size: 32px;
+  font-size: 36px;
   background-color: #336630;
-  height: 100%;
-  height: 12.6vh;
+  height: 18vh;
   width: 30vw;
   border: 1px solid transparent;
   transition: border-color 0.25s;
+  overflow: hidden;
 }
-#bigButton:hover {
+.bigButton:hover {
   cursor: pointer;
   border-color: #ffffff;
+}
+#podcastButton {
+  background-color: #275025;
+}
+
+#articleButton {
+  background-color: #1a3419;
+}
+
+#interviewButton {
+  background-color: #1e3c1d;
 }
 
 .hero-banner {

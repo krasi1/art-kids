@@ -23,13 +23,13 @@ export default function Header() {
 
       <ul>
         <li>
-          <button id="bigButton">Podcast </button>
+          <button className="bigButton" id="podcastButton">Podcast </button>
         </li>
         <li>
-          <button id="bigButton">Articles</button>
+          <button className="bigButton" id="articleButton">Articles</button>
         </li>
         <li>
-          <button id="bigButton" onClick={navigateInterview}>Interview</button>
+          <button className="bigButton" id="interviewButton" onClick={navigateInterview}>Interview</button>
         </li>
       </ul>
     </header>
