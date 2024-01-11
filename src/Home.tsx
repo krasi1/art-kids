@@ -1,6 +1,6 @@
 const Home = () => {
   const backgroundImageStyle = {
-    background: 'url("/assets/bg1.JPG")',
+    background: 'url("assets/bg1.JPG")',
     backgroundSize: "cover",
     backgroundPosition: "center",
     height: "100vh",
