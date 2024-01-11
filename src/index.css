@@ -5,7 +5,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #ffffff;
+  background-color: #ffe8d6;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -14,31 +14,11 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
-  font-weight: 500;
-  color: #fffff0;
-  text-decoration: inherit;
-  background-color: #ba672b;
-  padding: 8px;
-  border-radius: 5%;
-  margin: -9px;
-}
-a:hover {
-  background-color: #b87545;
-  cursor: pointer;
-}
-
 body {
   margin: 0;
-  display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 @media (prefers-color-scheme: light) {

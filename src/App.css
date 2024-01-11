@@ -4,10 +4,12 @@
 //b7b7a4 light green(puke)
 //6b705c darker green(vomit) */
 
-body {
-  background-image: url("/assets/bg1.JPG");
-  background-size: cover;
-  background-position: center;
+#home-title {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  position: absolute;
+  left: 10px;
+  top: 60px;
 }
 
 #root {
@@ -21,32 +23,16 @@ body {
   height: 100%;
 }
 #video {
-  position: relative;
+  position: absolute;
+  top: 300px;
   border-width: 5px;
   border-color: black;
   margin-top: 20px;
   margin-left: 20px;
 }
-#homeButton {
-  position: absolute;
-  height: 18vh;
-  width: 10vw;
-  left: 0;
-  top: 0;
-  border: 1px solid transparent;
-  font-size: 50px;
-  font-family: inherit;
-  background-color: #f8d5bb;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
+
 #homeButton:hover {
   border-color: #ffffff;
-}
-.card {
-  position: relative;
-  padding: 2em;
-  background-color: #080808;
 }
 
 .footer {
@@ -59,25 +45,20 @@ body {
 }
 
 header {
+  top: 0;
+  position: absolute;
   height: 18vh;
   width: 100%;
-  background-color: #6b705c;
   color: #fffff0;
-  text-align: center;
-  display: flex;
-  justify-content: right;
-  align-items: stretch;
-}
-header .hero-banner {
-  position: relative;
+  text-align: left;
+  justify-content: left;
 }
 
 ul {
   position: absolute;
+  left: -50px;
   margin: 0;
-  padding: 0;
-  width: 90%;
-  justify-content: right;
+  width: 100vw;
 }
 
 li {
@@ -86,43 +67,106 @@ li {
 
 .bigButton {
   font-family: "Times New Roman", Times, serif;
-  text-decoration: none;
   color: #fffff0;
   font-weight: bold;
   font-size: 36px;
-  background-color: #336630;
-  height: 18vh;
-  width: 30vw;
+  height: 12vh;
+  width: 22.5vw;
   border: 1px solid transparent;
   transition: border-color 0.25s;
-  overflow: hidden;
 }
 .bigButton:hover {
   cursor: pointer;
   border-color: #ffffff;
 }
 #podcastButton {
-  background-color: #cb997e;
+  background-color: #486140;
 }
 
 #articleButton {
-  background-color: #97735f;
+  background-color: #385031;
 }
 
 #interviewButton {
-  background-color: #715546;
+  background-color: #283c21;
 }
 
-.hero-banner {
+#statisticButton {
+  background-color: #1b2716;
+}
+#homeButton {
+  width: 10vw;
+  border: 1px solid transparent;
+  background-color: #6e8d64;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.article-div {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffe8d6;
+  left: 50%;
+  translate: -50%;
+  position: absolute;
+  justify-items: center;
+  color: black;
+  display: inline;
+}
+.intro {
+  font-size: 16px;
+  margin: 20px;
+  display: inline-block;
+  padding-bottom: 50px;
+}
+
+.title-article {
   text-align: center;
+  border: 1px solid black;
+  color: black;
+  background-color: rgba(176, 233, 176, 0.7);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  translate: -50%;
+  padding-bottom: 45px;
 }
 
-h1 {
-  font-size: 36px;
-  margin-bottom: 10px;
-}
-
-p {
-  font-size: 18px;
+.graph {
+  position: relative;
+  margin-top: 160px;
   margin-bottom: 20px;
+  left: 50%;
+  translate: -50%;
+  top: 15%;
+  border: 2px solid #cb997e;
+}
+
+#graph2 {
+  margin-top: 40px;
+}
+
+.feature-article {
+  text-align: left;
+  top: 20%;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #ffe8d6;
+  left: 50%;
+  translate: -50%;
+  position: absolute;
+  justify-items: center;
+  color: black;
+  display: inline;
+  padding-bottom: 80px;
+}
+
+.feature-image {
+  border: 2px solid black;
+  position: relative;
+  height: auto;
+  width: auto;
+  max-height: 400px;
+  /* translate: 100%;
+  left: 80%; */
 }
