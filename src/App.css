@@ -5,7 +5,7 @@
 //6b705c darker green(vomit) */
 
 body {
-  background-image: url("public/bg1.JPG");
+  background-image: url("assets/bg1.JPG");
   background-size: cover;
   background-position: center;
 }

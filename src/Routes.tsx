@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import MovieClip from "./assets/MovieClip";
+import MovieClip from "./MovieClip";
 
 const AppRoutes = () => {
   return (

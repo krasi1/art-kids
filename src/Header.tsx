@@ -18,7 +18,6 @@ export default function Header() {
         &#x2302;
       </button>
       <div className="hero-banner">
-        <h1 className="header-title">Art Kids</h1>
       </div>
 
       <ul>

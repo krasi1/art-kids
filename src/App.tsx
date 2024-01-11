@@ -1,8 +1,8 @@
 import { BrowserRouter as Router } from "react-router-dom";
 import "./App.css";
+import Footer from "./Footer";
 import Header from "./Header";
 import AppRoutes from "./Routes";
-import Footer from "./assets/Footer";
 
 const App = () => {
   return (
