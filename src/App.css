@@ -36,7 +36,7 @@ body {
   border: 1px solid transparent;
   font-size: 50px;
   font-family: inherit;
-  background-color: #336630;
+  background-color: #f8d5bb;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -102,15 +102,15 @@ li {
   border-color: #ffffff;
 }
 #podcastButton {
-  background-color: #275025;
+  background-color: #cb997e;
 }
 
 #articleButton {
-  background-color: #1a3419;
+  background-color: #97735f;
 }
 
 #interviewButton {
-  background-color: #1e3c1d;
+  background-color: #715546;
 }
 
 .hero-banner {
