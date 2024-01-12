@@ -9,20 +9,20 @@ export default function Header() {
   const isHomePage = location.pathname === "/";
 
   const navigateInterview = () => {
-    navigate("/interview");
+    navigate("/art-kids/interview");
   };
   const navigateArticles = () => {
-    navigate("/articles");
+    navigate("/art-kids/articles");
   };
   // const navigatePodcast = () => {
   //   navigate("/podcast");
   // };
   const navigateStatistics = () => {
-    navigate("/statistics");
+    navigate("/art-kids/statistics");
   };
   const navigateHome = () => {
     if (!isHomePage) {
-      navigate("/");
+      navigate("/art-kids/");
     }
   };
 
