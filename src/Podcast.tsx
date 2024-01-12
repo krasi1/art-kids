@@ -1,7 +1,8 @@
 import React from "react";
 import YouTube from "react-youtube";
+import "./App.css";
 
-class MovieClip extends React.Component {
+export default class Podcast extends React.Component {
   render() {
     const options = {
       height: "620",
@@ -16,12 +17,12 @@ class MovieClip extends React.Component {
       <div>
         <h1 className="interviewTitle">
           <i>
-            Успехите и неволите на един младши артист - Калина Динева,
-            асистент-режисьор на "Студентското шоу"
+            Изборът за следване в чужбина и реализацията в медиите и културата -
+            разговор с Виктория Каменова
           </i>
         </h1>
         <YouTube
-          videoId="kasK-hLsTVA"
+          videoId="9W9gKR1g79E"
           //@ts-expect-error stop
           options={options}
           onReady={this._onReady}
@@ -30,10 +31,7 @@ class MovieClip extends React.Component {
       </div>
     );
   }
-
   _onReady(event) {
     event.target.pauseVideo();
   }
 }
-
-export default MovieClip;

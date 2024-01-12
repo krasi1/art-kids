@@ -14,9 +14,9 @@ export default function Header() {
   const navigateArticles = () => {
     navigate("/art-kids/articles");
   };
-  // const navigatePodcast = () => {
-  //   navigate("/podcast");
-  // };
+  const navigatePodcast = () => {
+    navigate("/art-kids/podcast");
+  };
   const navigateStatistics = () => {
     navigate("/art-kids/statistics");
   };
@@ -35,7 +35,7 @@ export default function Header() {
           </button>
         </li>
         <li>
-          <button className="bigButton" id="podcastButton">
+          <button className="bigButton" id="podcastButton" onClick={navigatePodcast}>
             Podcast
           </button>
         </li>
