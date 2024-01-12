@@ -8,10 +8,10 @@ import Statistics from "./Statistics";
 const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="/art-kids/" element={<Home />} />
-      <Route path="/art-kids/interview" element={<MovieClip />} />
-      <Route path="/art-kids/statistics/" element={<Statistics />} />
-      <Route path="/art-kids/articles/" element={<Articles />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/interview" element={<MovieClip />} />
+      <Route path="/statistics/" element={<Statistics />} />
+      <Route path="/articles/" element={<Articles />} />
 
 
     </Routes>

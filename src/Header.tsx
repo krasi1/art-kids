@@ -9,38 +9,42 @@ export default function Header() {
   const isHomePage = location.pathname === "/";
 
   const navigateInterview = () => {
-    navigate("/art-kids/interview");
+    navigate("/interview");
   };
   const navigateArticles = () => {
-    navigate("/art-kids/articles");
+    navigate("/articles");
   };
   // const navigatePodcast = () => {
   //   navigate("/podcast");
   // };
   const navigateStatistics = () => {
-    navigate("/art-kids/statistics");
+    navigate("/statistics");
   };
   const navigateHome = () => {
     if (!isHomePage) {
-      navigate("/art-kids/");
+      navigate("/");
     }
   };
 
   return (
     <header>
-      
-
       <ul>
-        <li><button id="homeButton" className="bigButton" onClick={navigateHome}>
-        &#x2302;
-      </button></li>
+        <li>
+          <button id="homeButton" className="bigButton" onClick={navigateHome}>
+            &#x2302;
+          </button>
+        </li>
         <li>
           <button className="bigButton" id="podcastButton">
             Podcast
           </button>
         </li>
         <li>
-          <button className="bigButton" id="articleButton" onClick={navigateArticles}>
+          <button
+            className="bigButton"
+            id="articleButton"
+            onClick={navigateArticles}
+          >
             Articles
           </button>
         </li>

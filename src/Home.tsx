@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <div>
       <div className="bg">
-        <h1 id="home-title">Art Kids</h1>
+        <h1 className="home-title">Art Kids</h1>
         <article className="title-article">
           <h1>
             <i>„Артист къща не храни“</i>

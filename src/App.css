@@ -1,5 +1,5 @@
 .bg {
-  background-image: url("assets/bg1.JPG");
+  background-image: url("/assets/bg1.JPG");
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -7,7 +7,7 @@
 }
 
 
-#home-title {
+.home-title {
   font-family: "Times New Roman", Times, serif;
   font-size: 70px;
   position: absolute;

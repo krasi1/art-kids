@@ -2,7 +2,7 @@ const Articles = () => {
   return (
     <div>
       <article className="feature-article">
-        <img className="feature-image" src="/assets/1.jpg" alt="1 :) " />
+        <img className="feature-image" src="/src/assets/1.jpg" alt="1 :) " />
         <h1>
           Творческо предприемачество в България: трудно, но не и невъзможно
         </h1>
@@ -26,7 +26,7 @@ const Articles = () => {
           със себе си. Явно тази идея се харесва и на 18 000-те й последователи
           в Тик Ток.
         </p>
-        <img className="feature-image" src="/assets/2.jpg" alt="2 :) " />
+        <img className="feature-image" src="/src/assets/2.jpg" alt="2 :) " />
         <p>
           <i>
             Перлата в короната на бижутата от смола е колекцията с крилца от
@@ -50,7 +50,7 @@ const Articles = () => {
           бижута. Те бързо стават хит сред връстничките й. Така ученичката
           започва сама да изкарва джобните си.
         </p>
-        <img className="feature-image" src="/assets/3.jpg" alt="3 :) " />
+        <img className="feature-image" src="/src/assets/3.jpg" alt="3 :) " />
         <p>
           <i>
             Опаковките, в които се изпращат творенията, са напълно екосъобразни.
@@ -100,7 +100,7 @@ const Articles = () => {
           бюрокрацията. Купува си касов апарат и си наема счетоводителка. Така
           заниманието й се превръща в истински бизнес.
         </p>
-        <img className="feature-image" src="/assets/4.jpg" alt="4 :) " />
+        <img className="feature-image" src="/src/assets/4.jpg" alt="4 :) " />
         <p>
           <i>
             В столицата Цветелина попада в творческо обкръжение. <br /> Заедно с
@@ -125,7 +125,7 @@ const Articles = () => {
           си в бизнес, че тя може да им помогне направят. Така младата бижутерка
           планира да предлага и обучителни курсове.
         </p>
-        <img className="feature-image" src="/assets/5.jpg" alt="5 :) " />
+        <img className="feature-image" src="/src/assets/5.jpg" alt="5 :) " />
         <p>
           <i>
             Предприемчивата художничка създава също и единствен по рода си бранд
